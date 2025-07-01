@@ -1,0 +1,118 @@
+.contact-wrapper {
+  background: #ffe6e1; /* light tomato shade */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-title {
+  font-size: 26px;
+  color: tomato;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 12px 15px;
+  border: 1px solid #f4b1a7;
+  border-radius: 8px;
+  background-color: #fff5f3;
+  font-size: 16px;
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-form .form-row input {
+  flex: 1;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid tomato;
+  background-color: #ffffff;
+}
+
+.contact-form textarea {
+  resize: none;
+  margin-top: 15px;
+}
+
+.contact-form button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form button:hover {
+  background-color: #c0392b; /* darker tomato */
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 14px;
+  color: #38b000;
+  margin-top: 10px;
+}
+/* Location section */
+.contact-location {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.find-us {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: tomato;
+  margin-bottom: 20px;
+}
+
+.contact-map iframe {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 30px 20px;
+  }
+
+  .contact-form .form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,105 @@
+.place-order {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 80px 80px;
+}
+
+.place-order-left {
+  width: 100%;
+  max-width: 500px;
+  flex: 1;
+}
+
+.place-order-left .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.place-order-left input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: tomato;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.place-order-left input::placeholder {
+  color: #999;
+}
+
+.place-order-left .multi-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.place-order-left .multi-fields input {
+  flex: 1;
+}
+
+.place-order-right {
+  width: 100%;
+  max-width: 500px;
+  flex: 1;
+}
+
+.place-order .cart-total button {
+  margin-top: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 1050px) {
+  .place-order {
+    gap: 40px;
+  }
+
+  .place-order-left .title {
+    font-size: 26px;
+  }
+
+  .place-order-left input {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place-order {
+    flex-direction: column;
+    margin: 60px 15px;
+  }
+
+  .place-order-left,
+  .place-order-right {
+    max-width: 100%;
+  }
+
+  .place-order-left .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .place-order {
+    margin: 40px 10px;
+    gap: 30px;
+  }
+
+  .place-order-left .title {
+    font-size: 22px;
+  }
+
+  .place-order-left input {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

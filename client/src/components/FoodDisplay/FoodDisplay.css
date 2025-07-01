@@ -1,0 +1,67 @@
+.food-display {
+  margin: 40px 40px;
+   text-align: center;
+  align-items: center;
+}
+
+.food-display h2 {
+  font-size: max(2.5vw, 26px);
+  font-weight: 600;
+  color: #262626; /* Dark color manually applied */
+  margin-bottom: 20px;
+}
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+  padding-bottom: 20px;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 1050px) {
+  .food-display {
+    margin: 30px 15px;
+  }
+
+  .food-display h2 {
+    font-size: 24px;
+  }
+
+  .food-display-list {
+    gap: 25px;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .food-display {
+    margin: 25px 12px;
+  }
+
+  .food-display h2 {
+    font-size: 22px;
+  }
+
+  .food-display-list {
+    gap: 20px;
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .food-display {
+    margin: 20px 10px;
+  }
+
+  .food-display h2 {
+    font-size: 20px;
+  }
+
+  .food-display-list {
+    gap: 15px;
+    row-gap: 30px;
+  }
+}
