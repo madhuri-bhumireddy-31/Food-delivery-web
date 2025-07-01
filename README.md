@@ -1,5 +1,5 @@
-🍔 Food Delivery Website (MERN Stack)
-A full-stack food delivery website built using MongoDB, Express.js, React.js, and Node.js. The application supports user and admin roles, food category browsing, cart management, image upload, and order placement — all in a responsive and user-friendly .
+🍔 Food Delivery Website (MERN Stack) - 
+A full-stack food delivery website built using MERN Stack. The application supports user and admin roles, food category browsing, cart management, image upload, and order placement — all in a responsive and user-friendly .
 
 🚀 Features
 👥 User Features:
