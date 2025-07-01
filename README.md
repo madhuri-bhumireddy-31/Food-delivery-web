@@ -16,6 +16,6 @@ Manage items by category,
 Monitor orders, 
 
 🛠 Tech Stack
-Front END : HTML, CSS, JavaScript, React
-Backend: Node, Express, Postman
+Front end : HTML, CSS, JavaScript, React | 
+Back end: Node, Express, Postman | 
 Database: Mongo DB
